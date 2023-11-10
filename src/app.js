@@ -27,7 +27,7 @@ const limiter = rateLimit({
 });
 
 const corsOptions = {
-  origin: ["http://localhost:5173","https://tender-vault-frontend.vercel.app/"],
+  origin: ["http://localhost:5173","https://tender-vault-frontend.vercel.app"],
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };
